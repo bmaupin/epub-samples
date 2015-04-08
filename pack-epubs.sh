@@ -3,7 +3,7 @@
 # Clean out any Gedit backup files
 find . -name '*~' -exec rm '{}' \;
 
-rm *.epub
+rm -f *.epub
 
 for folder in `find . -maxdepth 1 -type d ! -name .git ! -path . -printf '%P\n'`; do
     cd $folder
