@@ -9,7 +9,7 @@
   <manifest>
     <item id="nav" href="nav.xhtml" properties="nav" media-type="application/xhtml+xml"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
-    <item id="section0001.xhtml" href="section0001.xhtml" media-type="application/xhtml+xml" />
+    <item id="section0001.xhtml" href="xhtml/section0001.xhtml" media-type="application/xhtml+xml" />
   </manifest>
   <spine toc="ncx">
     <itemref idref="section0001.xhtml" />

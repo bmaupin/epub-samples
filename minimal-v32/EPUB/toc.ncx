@@ -11,7 +11,7 @@
       <navLabel>
         <text>Section 1</text>
       </navLabel>
-      <content src="section0001.xhtml" />
+      <content src="xhtml/section0001.xhtml" />
     </navPoint>
   </navMap>
 </ncx>
