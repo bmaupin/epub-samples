@@ -1,0 +1,5 @@
+# Ignore Gedit backup files
+*~
+
+# Ignore generated EPUB files, for now
+*.epub
