@@ -13,5 +13,11 @@
       </navLabel>
       <content src="xhtml/section0001.xhtml" />
     </navPoint>
+    <navPoint id="navPoint-2">
+      <navLabel>
+        <text>Section 2</text>
+      </navLabel>
+      <content src="xhtml/section0002.xhtml" />
+    </navPoint>
   </navMap>
 </ncx>

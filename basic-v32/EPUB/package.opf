@@ -3,15 +3,24 @@
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="pub-id">urn:uuid:fe93046f-af57-475a-a0cb-a0d4bc99ba6d</dc:identifier>
     <dc:title>Your title here</dc:title>
+    <dc:creator id="creator">Hingle McCringleberry</dc:creator>
     <dc:language>en</dc:language>
+    <meta refines="#creator" property="role" scheme="marc:relators" id="role">aut</meta>
     <meta property="dcterms:modified">2011-01-01T12:00:00Z</meta>
   </metadata>
   <manifest>
+    <item id="cover.css" href="css/cover.css" media-type="text/css" />
+    <item id="cover.jpg" href="img/cover.jpg" media-type="image/jpeg" properties="cover-image" />
+    <item id="cover.xhtml" href="xhtml/cover.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub.css" href="css/epub.css" media-type="text/css" />
     <item id="nav" href="nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
     <item id="section0001.xhtml" href="xhtml/section0001.xhtml" media-type="application/xhtml+xml" />
+    <item id="section0002.xhtml" href="xhtml/section0002.xhtml" media-type="application/xhtml+xml" />
   </manifest>
   <spine toc="ncx">
+    <itemref idref="cover.xhtml" />
     <itemref idref="section0001.xhtml" />
+    <itemref idref="section0002.xhtml" />
   </spine>
 </package>
