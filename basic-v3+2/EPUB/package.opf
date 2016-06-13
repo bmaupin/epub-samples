@@ -10,7 +10,7 @@
   </metadata>
   <manifest>
     <item id="cover.css" href="css/cover.css" media-type="text/css" />
-    <item id="cover.jpg" href="img/cover.jpg" media-type="image/jpeg" properties="cover-image" />
+    <item id="cover.jpg" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image" />
     <item id="cover.xhtml" href="xhtml/cover.xhtml" media-type="application/xhtml+xml" />
     <item id="epub.css" href="css/epub.css" media-type="text/css" />
     <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav" />
