@@ -6,6 +6,7 @@ Sample EPUB files for testing/development
   - Based off minimal-v3+2 with a few additional basic features:
     - Author
     - CSS stylesheets
+    - Custom font
     - An extra section
     - Cover page
 - minimal-v2
