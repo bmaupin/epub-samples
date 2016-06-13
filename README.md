@@ -1,8 +1,8 @@
 # epub-samples
 Sample EPUB files for testing/development
 
-- basic-v32
-  - Based off minimal-v32 with a few additional basic features:
+- basic-v3+2
+  - Based off minimal-v3+2 with a few additional basic features:
     - Author
     - CSS stylesheets
     - An extra section
@@ -11,7 +11,7 @@ Sample EPUB files for testing/development
   - EPUB 2.0 sample with minimal features
 - minimal-v3
   - EPUB 3.0 sample with minimal features
-- minimal-v32
+- minimal-v3+2
   - EPUB 3.0 sample with minimal features as well as an EPUB 2.0 table of contents for maximum backwards-compatibility
 
 To build the EPUB files, run the `pack-epubs.sh` script.
