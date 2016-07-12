@@ -1,3 +1,5 @@
+[![Github All Releases](https://img.shields.io/github/downloads/bmaupin/epub-samples/total.svg)](https://github.com/bmaupin/epub-samples/releases)
+
 [![GitHub license](https://img.shields.io/badge/license-Public%20domain-blue.svg)](https://raw.githubusercontent.com/bmaupin/epub-samples/master/LICENSE)
 
 Sample EPUB files for testing/development
