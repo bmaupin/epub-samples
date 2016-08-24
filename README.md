@@ -4,6 +4,8 @@
 
 Sample EPUB files for testing/development
 
+See here for the built EPUB files: [Releases](https://github.com/bmaupin/epub-samples/releases)
+
 - basic-v3plus2
   - Based off minimal-v3plus2 with a few additional basic features:
     - Author
