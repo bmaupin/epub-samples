@@ -9,13 +9,13 @@
   <navMap>
     <navPoint id="navPoint-1">
       <navLabel>
-        <text>Section 1</text>
+        <text>Ladle Rat Rotten Hut</text>
       </navLabel>
       <content src="xhtml/section0001.xhtml" />
     </navPoint>
     <navPoint id="navPoint-2">
       <navLabel>
-        <text>Section 2</text>
+        <text>Guilty Looks Enter Tree Beers</text>
       </navLabel>
       <content src="xhtml/section0002.xhtml" />
     </navPoint>
