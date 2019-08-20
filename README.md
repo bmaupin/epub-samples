@@ -18,7 +18,7 @@ See here for the built EPUB files: [Releases](https://github.com/bmaupin/epub-sa
 - minimal-v3
   - EPUB 3.0 sample with minimal features
 - minimal-v3plus2
-  - EPUB 3.0 sample with minimal features as well as an EPUB 2.0 table of contents for maximum backwards-compatibility
+  - EPUB 3.0 sample with minimal features and an additional EPUB 2.0 table of contents for maximum backwards compatibility
 
 To build the EPUB files, run the `pack-epubs.sh` script.
 
