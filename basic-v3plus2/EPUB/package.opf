@@ -15,7 +15,7 @@
     <item id="epub.css" href="css/epub.css" media-type="text/css" />
     <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav" />
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
-    <item id="redacted-script-regular.ttf" href="fonts/redacted-script-regular.ttf" media-type="application/x-font-ttf" />
+    <item id="redacted-script-regular.ttf" href="fonts/redacted-script-regular.ttf" media-type="application/font-sfnt" />
     <item id="section0001.xhtml" href="xhtml/section0001.xhtml" media-type="application/xhtml+xml" />
     <item id="section0002.xhtml" href="xhtml/section0002.xhtml" media-type="application/xhtml+xml" />
   </manifest>
