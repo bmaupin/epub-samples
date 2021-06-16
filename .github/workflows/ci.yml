@@ -14,5 +14,21 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
 
-      - name: Build
+      # This needs to come after the checkout, which wipes the working directory
+      - name: Download EPUBCheck
+        run: |
+          # Download the latest version of EPUBCheck
+          wget $(curl -Ls -H "Accept: application/vnd.github.v3+json" 'https://api.github.com/repos/IDPF/epubcheck/releases?per_page=1' | jq '.[0].assets[0].browser_download_url' -r)
+          unzip epubcheck-*.zip
+
+      - name: Build EPUBs
         run: ./pack-epubs.sh
+
+      - name: Validate EPUBs
+        run: |
+          set -e
+          for epub in *.epub; do
+            echo "$epub"
+            java -jar epubcheck-*/epubcheck.jar "$epub"
+          done
+          set +e
