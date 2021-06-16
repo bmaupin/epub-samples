@@ -1,5 +1,5 @@
 [![CI](https://github.com/bmaupin/epub-samples/workflows/CI/badge.svg)](https://github.com/bmaupin/epub-samples/actions)
-[![GitHub license](https://img.shields.io/badge/license-Public%20domain-blue.svg)](https://raw.githubusercontent.com/bmaupin/epub-samples/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/bmaupin/epub-samples/master/LICENSE)
 [![Github All Releases](https://img.shields.io/github/downloads/bmaupin/epub-samples/total.svg)](https://github.com/bmaupin/epub-samples/releases)
 
 ---
