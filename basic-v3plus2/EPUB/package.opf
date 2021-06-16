@@ -7,6 +7,7 @@
     <dc:language>en</dc:language>
     <meta refines="#creator" property="role" scheme="marc:relators" id="role">aut</meta>
     <meta property="dcterms:modified">2011-01-01T12:00:00Z</meta>
+    <meta name="cover" content="cover.jpg" />
   </metadata>
   <manifest>
     <item id="cover.css" href="css/cover.css" media-type="text/css" />
