@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      # This needs to come before Download EPUBCheck, otherwise it will try to create an EPUB out of it 😝
+      - name: Build EPUBs
+        run: ./pack-epubs.sh
+
+      # This needs to come after the checkout, which wipes the working directory
+      - name: Download EPUBCheck
+        run: |
+          # Download the latest version of EPUBCheck
+          wget $(curl -Ls -H "Accept: application/vnd.github.v3+json" 'https://api.github.com/repos/IDPF/epubcheck/releases?per_page=1' | jq '.[0].assets[0].browser_download_url' -r)
+          unzip epubcheck-*.zip
+
+      - name: Validate EPUBs
+        run: |
+          # This should immediately exit the for loop if there's any error
+          set -e
+          for epub in *.epub; do
+            echo "$epub"
+            java -jar epubcheck-*/epubcheck.jar "$epub"
+          done
+          set +e

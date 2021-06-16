@@ -1,10 +1,12 @@
+[![CI](https://github.com/bmaupin/epub-samples/workflows/CI/badge.svg)](https://github.com/bmaupin/epub-samples/actions)
+[![GitHub license](https://img.shields.io/badge/license-Public%20domain-blue.svg)](https://raw.githubusercontent.com/bmaupin/epub-samples/master/LICENSE)
 [![Github All Releases](https://img.shields.io/github/downloads/bmaupin/epub-samples/total.svg)](https://github.com/bmaupin/epub-samples/releases)
 
-[![GitHub license](https://img.shields.io/badge/license-Public%20domain-blue.svg)](https://raw.githubusercontent.com/bmaupin/epub-samples/master/LICENSE)
+---
 
 Sample EPUB files for testing/development
 
-See here for the built EPUB files: [Releases](https://github.com/bmaupin/epub-samples/releases)
+See here for the built EPUB files: [Releases](../../releases)
 
 - basic-v3plus2
   - Based off minimal-v3plus2 with a few additional basic features:
